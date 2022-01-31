@@ -1,0 +1,136 @@
+/*   opposite of the end of css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/*   end of css reset */
+
+#root {
+
+    background-color: #45FF32;
+
+}
+div.container.wrapper {
+
+    background-color: #131517;
+
+}
+#root .container .container {
+
+    width: 200px;
+    height: 200px;
+
+}
+html, body {
+
+width: 100vw;
+height: 100vh;
+
+}
+body {
+    display: grid;
+    place-items: center;
+}
+
+#cube1 {
+    display: grid;
+    place-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+
+}
+#cube2 {
+    display: grid;
+    place-items: center;
+    width: 380px;
+    height: 380px;
+    background-color: white;
+
+}
+#cube3 {
+    display: grid;
+    place-items: center;
+    width: 360px;
+    height: 360px;
+    background-color: red;
+}
+#cube4 {
+    display: grid;
+    place-items: center;
+    width: 340px;
+    height: 340px;
+    background-color: green;
+}
+#cube5 {
+    display: grid;
+    place-items: center;
+    width: 320px;
+    height: 320px;
+    background-color: yellow;
+}
+#cube6 {
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+#cube7 {
+    display: grid;
+    place-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: pink;
+}
+#cube8 {
+    display: grid;
+    place-items: center;
+    width: 260px;
+    height: 260px;
+    background-color: silver;
+}
+#cube9 {
+    display: grid;
+    place-items: center;
+    width: 240px;
+    height: 240px;
+    background-color: gold;
+}
+#cube10 {
+    display: grid;
+    place-items: center;
+    width: 220px;
+    height: 220px;
+    background-color: darkkhaki;
+}
