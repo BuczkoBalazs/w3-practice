@@ -89,9 +89,26 @@ section.img h1 {
     font-size: 100px;
     color: blue;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Bitter', serif;
 }
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    text-align: center;
+    background-color: burlywood;
+}
+
 #about {
     min-height: unset;
     background-color: red;
